@@ -1,0 +1,57 @@
+@import 'vars';
+
+.card {
+  display: flex;
+  align-self: flex-start;
+  gap: 61px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__title {
+    color: $black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+
+  &__contact_wrap {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__contact_text {
+    color: $black-color;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+
+  &__contact_link {
+    color: $color-gray;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    &_title {
+      color: $black-color;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+}

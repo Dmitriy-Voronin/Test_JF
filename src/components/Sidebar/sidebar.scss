@@ -1,0 +1,56 @@
+@import 'vars';
+
+.aside {
+  padding: 27px 31px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+  max-width: 291px;
+  border-right: 1px solid $christmas-silver;
+
+  &__form_fieldset {
+    padding: 0;
+    border: none;
+  }
+
+  &__form_legend {
+    padding: 0;
+    margin-bottom: 14px;
+    color: $black-color;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+
+  &__form_input {
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1.5px solid $color-gray-200;
+    color: $color-gray;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    background: $white-color;
+  }
+
+  &__search_results_block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &_title {
+      color: $black-color;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 140%;
+    }
+  }
+
+  &__search_results {
+    color: $color-gray;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
